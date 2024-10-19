@@ -11,6 +11,7 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
   credentials: true, // If you need to include credentials (like cookies)
 }));
+app.options('*', cors());
 // app.use(cors(corsOptions));
 app.use(express.json());
 
