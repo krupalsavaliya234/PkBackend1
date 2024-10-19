@@ -7,7 +7,7 @@ const app = express();
 // CORS configuration
 // Use CORS
 app.use(cors({
-  origin: 'https://pritam-six.vercel.app', // Allow only this origin
+  origin: 'https://pritamkumar.vercel.app/', // Allow only this origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
   credentials: true, // If you need to include credentials (like cookies)
 }));
