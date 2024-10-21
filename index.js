@@ -53,7 +53,7 @@ app.post("/contact", (req, res) => {
 
   const mail = {
     from: 'moharanapritam585@gmail.com', // Sender's email
-    to: 'krupalsavaliya0@gmail.com', // Recipient's email
+    to: {email}, // Recipient's email
     subject: "Contact Form Submission - Portfolio",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
